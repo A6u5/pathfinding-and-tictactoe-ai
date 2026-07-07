@@ -2,23 +2,28 @@
 
 ## 📋 Descripción
 
-Este proyecto tiene como objetivo enseñar el algoritmo **Minimax** aplicado al juego del Tateti (Tic-Tac-Toe). El proyecto está estructurado en módulos para facilitar la comprensión e implementación gradual.
+Este proyecto consiste en el desarrollo de una versión del juego Tateti (Tres en línea) que incorpora una inteligencia artificial basada en el algoritmo **Minimax**. Fue realizado como parte del trabajo práctico de la materia Programación III y permite enfrentar a un jugador humano contra la computadora, observar partidas entre dos inteligencias artificiales o jugar entre dos personas.
 
 ## 🎯 Objetivos
 
-- Comprender la teoría de juegos y los algoritmos de búsqueda entre adversarios
-- Implementar el algoritmo Minimax  
-- Repasar conceptos de recursión
+- Implementar el algoritmo Minimax.
+- Aplicar teoría de juegos.
+- Desarrollar una interfaz gráfica utilizando Pygame.
+- Modelar el juego mediante estados y acciones.
+- Evaluar decisiones óptimas en juegos de suma cero.
+
+## 🤖 Algoritmo MiniMax
+El algoritmo Minimax explora recursivamente todos los estados posibles del juego y selecciona la acción que maximiza la utilidad del jugador actual suponiendo que el adversario siempre realizará la mejor jugada posible. Dado que el espacio de estados del Tateti es reducido, la IA puede analizar el árbol completo de decisiones y garantizar un juego óptimo.
 
 ## 📁 Estructura del Proyecto
 
 ```
 tp-tateti/
-├── tateti.py           # Formulación del juego (COMPLETO)
-├── estrategias.py      # Estrategias de juego (PARA IMPLEMENTAR)
-├── gui_pygame.py       # Interfaz gráfica moderna (COMPLETO)
-├── main.py             # Punto de entrada de la aplicación (COMPLETO)
-├── test.py             # Pruebas unitarias (COMPLETO)
+├── tateti.py           # Formulación del juego
+├── estrategias.py      # Estrategias de juego
+├── gui_pygame.py       # Interfaz gráfica moderna
+├── main.py             # Punto de entrada de la aplicación
+├── test.py             # Pruebas unitarias
 ├── requirements.txt    # Dependencias del proyecto
 └── README.md           # Este archivo
 ```
@@ -90,20 +95,6 @@ python3 main.py
 ```bash
 python3 test.py
 ```
-
-## 📝 Guía de Implementación
-
-### Paso 1: Primer acercamiento
-1. Ejecuta `python3 main.py` y juega algunos juegos, 
-   inicialmente la única estrategia implementada es la aleatoria.
-2. Examina el código en `tateti.py`
-
-### Paso 2: Implementar `estrategia_minimax` en `estrategias.py`
-
-### Paso 3: Probar y Validar
-1. Ejecuta las pruebas: `python3 test.py`
-2. Juega contra tu IA: `python3 main.py`
-3. ¿Es posible ganarle a la IA?
 
 ## 🔗 Bibliografía
 
