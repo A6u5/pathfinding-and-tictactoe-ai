@@ -96,6 +96,11 @@ python3 main.py
 python3 test.py
 ```
 
+## 📸 Capturas
+
+## 👥 Integrantes
+Agustín Torres, Florencia Mezzano, Sebastián Perez
+
 ## 🔗 Bibliografía
 
 - [Russell & Norvig - AI: A Modern Approach, Chapter 5](http://aima.cs.berkeley.edu/)
